@@ -1,2 +1,2 @@
 # Magistro baigiamasis darbas
-Magistro baigiamojo darbo eksperimentine dalis
+Magistro baigiamojo darbo eksperimentinė dalis
