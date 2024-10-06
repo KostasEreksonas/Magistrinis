@@ -10,3 +10,7 @@
 !data/CIC_IDS_2017/download_dataset
 !plots/
 !plots/*
+!NSL_KDD/
+!NSL_KDD/*
+!NSL_KDD/nsl-kdd/
+!NSL_KDD/nsl-kdd/*
