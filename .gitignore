@@ -5,12 +5,7 @@
 !*.ipynb
 !data/
 !data/*
-!data/CIC_IDS_2017/
-!data/CIC_IDS_2017/README.md
-!data/CIC_IDS_2017/download_dataset
+!data/*/
+!data/*/*.sh
 !plots/
 !plots/*
-!NSL_KDD/
-!NSL_KDD/*
-!NSL_KDD/nsl-kdd/
-!NSL_KDD/nsl-kdd/*
