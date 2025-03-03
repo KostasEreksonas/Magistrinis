@@ -4,11 +4,3 @@ seaborn
 numpy
 matplotlib
 jupyter
-prettytable
-xgboost
-catboost
-lightgbm
-tensorflow
-nvidia-cudnn-cu11
-optuna
-missingno
