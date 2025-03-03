@@ -1,7 +1,5 @@
 *
 !.gitignore
-!*.py
-!*.txt
 !*.ipynb
 !data/
 !data/*
@@ -9,5 +7,5 @@
 !data/*/*.sh
 !plots/
 !plots/*
-!RNN/
-!RNN/*
+!old/
+!old/*
