@@ -1,6 +1,7 @@
 *
 !.gitignore
 !*.ipynb
+!*.txt
 !data/
 !data/*
 !data/*/
