@@ -6,7 +6,9 @@
 !data/*
 !data/*/
 !data/*/*.sh
-!plots/
-!plots/*
-!old/
-!old/*
+!images/
+!images/*
+!images/results/
+!images/results/*
+!images/results/time_graphs/
+!images/results/time_graphs/*
