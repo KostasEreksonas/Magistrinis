@@ -1,1 +1,194 @@
 Accuracy: {'LR': 0.6416666666666667, 'SVM': 0.6391666666666667, 'kNN': 0.6708333333333333, 'RF': 0.8525, 'XGBoost': 0.8816666666666667, 'LightGBM': 0.8841666666666667, 'FF-NN': 0.9900000095367432, 'LSTM': 0.9991645812988281}Precision: {'LR': 0.6612033378689788, 'SVM': 0.7302578899425192, 'kNN': 0.690576058263868, 'RF': 0.8600211174839908, 'XGBoost': 0.8849566423236914, 'LightGBM': 0.8875663994393203, 'FF-NN': 0.9900476161481405, 'LSTM': 0.9991698655922506}F1: {'LR': 0.6398072562425421, 'SVM': 0.6317901088056451, 'kNN': 0.6722910572044403, 'RF': 0.8531197303314851, 'XGBoost': 0.8822357543024587, 'LightGBM': 0.8844519982534546, 'FF-NN': 0.9900005126867639, 'LSTM': 0.9991644070065931}Recall: {'LR': 0.6416666666666667, 'SVM': 0.6391666666666667, 'kNN': 0.6708333333333333, 'RF': 0.8525, 'XGBoost': 0.8816666666666667, 'LightGBM': 0.8841666666666667, 'FF-NN': 0.99, 'LSTM': 0.9991645781119465}MCC: {'LR': 0.5933874097081551, 'SVM': 0.6041968552678726, 'kNN': 0.6266778734627784, 'RF': 0.8323759407898075, 'XGBoost': 0.8650670554635923, 'LightGBM': 0.868022231067782, 'FF-NN': 0.9885679971439947, 'LSTM': 0.9990454909251127}MAE: {'LR': 1.2775, 'SVM': 1.2775, 'kNN': 1.2916666666666667, 'RF': 0.57, 'XGBoost': 0.4725, 'LightGBM': 0.4625, 'FF-NN': 0.011666666666666667, 'LSTM': 0.000835421888053467}MSE: {'LR': 6.274166666666667, 'SVM': 6.509166666666666, 'kNN': 6.781666666666666, 'RF': 2.861666666666667, 'XGBoost': 2.4291666666666667, 'LightGBM': 2.3441666666666667, 'FF-NN': 0.015, 'LSTM': 0.000835421888053467}RMSE: {'LR': 2.5048286701223033, 'SVM': 2.5513068546661857, 'kNN': 2.6041633333311998, 'RF': 1.6916461410905848, 'XGBoost': 1.558578412100805, 'LightGBM': 1.531067165955389, 'FF-NN': 0.1224744871391589, 'LSTM': 0.028903665650804}Latency (ms): {'LR': 0.00039958953857421875, 'SVM': 0.2545454502105713, 'kNN': 0.02107548713684082, 'RF': 0.04958152770996094, 'XGBoost': 0.004689455032348633, 'LightGBM': 0.023927688598632812, 'FF-NN': 0.10583662986755371, 'LSTM': 0.13884830474853516}Time: {'LR': 6.81039023399353, 'SVM': 8.644262075424194, 'kNN': 0.08586931228637695, 'RF': 0.4192051887512207, 'XGBoost': 1.3133699893951416, 'LightGBM': 1.1196610927581787, 'FF-NN': 20.635114908218384, 'LSTM': 14.939409017562866}
+Benign: precision    0.594771
+recall       0.508380
+f1-score     0.548193
+Name: Benign, dtype: float64Bruteforce: precision    0.573427
+recall       0.463277
+f1-score     0.512500
+Name: Bruteforce, dtype: float64DDoS: precision    0.842466
+recall       0.878571
+f1-score     0.860140
+Name: DDoS, dtype: float64DoS: precision    0.873333
+recall       0.856209
+f1-score     0.864686
+Name: DoS, dtype: float64Mirai: precision    0.988636
+recall       1.000000
+f1-score     0.994286
+Name: Mirai, dtype: float64Recon: precision    0.492958
+recall       0.593220
+f1-score     0.538462
+Name: Recon, dtype: float64Spoofing: precision    0.524823
+recall       0.606557
+f1-score     0.562738
+Name: Spoofing, dtype: float64Web: precision    0.409396
+recall       0.445255
+f1-score     0.426573
+Name: Web, dtype: float64Benign: precision    0.575163
+recall       0.611111
+f1-score     0.592593
+Name: Benign, dtype: float64Bruteforce: precision    0.503497
+recall       0.421053
+f1-score     0.458599
+Name: Bruteforce, dtype: float64DDoS: precision    0.636986
+recall       0.801724
+f1-score     0.709924
+Name: DDoS, dtype: float64DoS: precision    0.846667
+recall       0.686486
+f1-score     0.758209
+Name: DoS, dtype: float64Mirai: precision    0.977273
+recall       0.988506
+f1-score     0.982857
+Name: Mirai, dtype: float64Recon: precision    0.380282
+recall       0.635294
+f1-score     0.475771
+Name: Recon, dtype: float64Spoofing: precision    0.553191
+recall       0.609375
+f1-score     0.579926
+Name: Spoofing, dtype: float64Web: precision    0.476510
+recall       0.360406
+f1-score     0.410405
+Name: Web, dtype: float64Benign: precision    0.856209
+recall       0.834395
+f1-score     0.845161
+Name: Benign, dtype: float64Bruteforce: precision    0.818182
+recall       0.680233
+f1-score     0.742857
+Name: Bruteforce, dtype: float64DDoS: precision    0.993151
+recall       1.000000
+f1-score     0.996564
+Name: DDoS, dtype: float64DoS: precision    0.980000
+recall       1.000000
+f1-score     0.989899
+Name: DoS, dtype: float64Mirai: precision    0.982955
+recall       1.000000
+f1-score     0.991404
+Name: Mirai, dtype: float64Recon: precision    0.598592
+recall       0.758929
+f1-score     0.669291
+Name: Recon, dtype: float64Spoofing: precision    0.780142
+recall       0.839695
+f1-score     0.808824
+Name: Spoofing, dtype: float64Web: precision    0.718121
+recall       0.656442
+f1-score     0.685897
+Name: Web, dtype: float64Benign: precision    0.862745
+recall       0.840764
+f1-score     0.851613
+Name: Benign, dtype: float64Bruteforce: precision    0.867133
+recall       0.751515
+f1-score     0.805195
+Name: Bruteforce, dtype: float64DDoS: precision    0.993151
+recall       0.993151
+f1-score     0.993151
+Name: DDoS, dtype: float64DoS: precision    0.993333
+recall       1.000000
+f1-score     0.996656
+Name: DoS, dtype: float64Mirai: precision    0.994318
+recall       1.000000
+f1-score     0.997151
+Name: Mirai, dtype: float64Recon: precision    0.725352
+recall       0.830645
+f1-score     0.774436
+Name: Recon, dtype: float64Spoofing: precision    0.773050
+recall       0.825758
+f1-score     0.798535
+Name: Spoofing, dtype: float64Web: precision    0.778523
+recall       0.763158
+f1-score     0.770764
+Name: Web, dtype: float64Benign: precision    0.836601
+recall       0.842105
+f1-score     0.839344
+Name: Benign, dtype: float64Bruteforce: precision    0.860140
+recall       0.732143
+f1-score     0.790997
+Name: Bruteforce, dtype: float64DDoS: precision    1.0
+recall       1.0
+f1-score     1.0
+Name: DDoS, dtype: float64DoS: precision    1.0
+recall       1.0
+f1-score     1.0
+Name: DoS, dtype: float64Mirai: precision    0.994318
+recall       1.000000
+f1-score     0.997151
+Name: Mirai, dtype: float64Recon: precision    0.732394
+recall       0.852459
+f1-score     0.787879
+Name: Recon, dtype: float64Spoofing: precision    0.787234
+recall       0.840909
+f1-score     0.813187
+Name: Spoofing, dtype: float64Web: precision    0.785235
+recall       0.754839
+f1-score     0.769737
+Name: Web, dtype: float64Benign: precision    0.555556
+recall       0.615942
+f1-score     0.584192
+Name: Benign, dtype: float64Bruteforce: precision    0.237762
+recall       0.478873
+f1-score     0.317757
+Name: Bruteforce, dtype: float64DDoS: precision    0.472603
+recall       0.971831
+f1-score     0.635945
+Name: DDoS, dtype: float64DoS: precision    0.966667
+recall       0.650224
+f1-score     0.777480
+Name: DoS, dtype: float64Mirai: precision    0.971591
+recall       1.000000
+f1-score     0.985591
+Name: Mirai, dtype: float64Recon: precision    0.281690
+recall       0.816327
+f1-score     0.418848
+Name: Recon, dtype: float64Spoofing: precision    0.510638
+recall       0.692308
+f1-score     0.587755
+Name: Spoofing, dtype: float64Web: precision    0.805369
+recall       0.321716
+f1-score     0.459770
+Name: Web, dtype: float64Benign: precision    0.987097
+recall       0.993506
+f1-score     0.990291
+Name: Benign, dtype: float64Bruteforce: precision    0.986486
+recall       0.986486
+f1-score     0.986486
+Name: Bruteforce, dtype: float64DDoS: precision    0.992857
+recall       0.992857
+f1-score     0.992857
+Name: DDoS, dtype: float64DoS: precision    0.986014
+recall       0.992958
+f1-score     0.989474
+Name: DoS, dtype: float64Mirai: precision    1.000000
+recall       0.987421
+f1-score     0.993671
+Name: Mirai, dtype: float64Recon: precision    0.993827
+recall       1.000000
+f1-score     0.996904
+Name: Recon, dtype: float64Spoofing: precision    0.993464
+recall       0.993464
+f1-score     0.993464
+Name: Spoofing, dtype: float64Web: precision    0.992958
+recall       0.986014
+f1-score     0.989474
+Name: Web, dtype: float64Benign: precision    0.993243
+recall       1.000000
+f1-score     0.996610
+Name: Benign, dtype: float64Bruteforce: precision    1.0
+recall       1.0
+f1-score     1.0
+Name: Bruteforce, dtype: float64DDoS: precision    1.000000
+recall       0.992908
+f1-score     0.996441
+Name: DDoS, dtype: float64DoS: precision    0.993631
+recall       1.000000
+f1-score     0.996805
+Name: DoS, dtype: float64Mirai: precision    1.0
+recall       1.0
+f1-score     1.0
+Name: Mirai, dtype: float64Recon: precision    1.0
+recall       1.0
+f1-score     1.0
+Name: Recon, dtype: float64Spoofing: precision    1.000000
+recall       0.992806
+f1-score     0.996390
+Name: Spoofing, dtype: float64Web: precision    1.0
+recall       1.0
+f1-score     1.0
+Name: Web, dtype: float64Accuracy: {'kNN': 0.6716666666666666, 'LR': 0.6291666666666667, 'RF': 0.8458333333333333, 'XGBoost': 0.8775, 'LightGBM': 0.8783333333333333, 'SVM': 0.6133333333333333, 'FF-NN': 0.9916666746139526, 'LSTM': 0.9983291625976562}Precision: {'kNN': 0.6773653796575466, 'LR': 0.6479553185342016, 'RF': 0.850758579878985, 'XGBoost': 0.8793313056188827, 'LightGBM': 0.8813557197688104, 'SVM': 0.6996736405863845, 'FF-NN': 0.9916880062388964, 'LSTM': 0.9983410914312331}F1: {'kNN': 0.6723380468276503, 'LR': 0.6309071808341142, 'RF': 0.8460755756761877, 'XGBoost': 0.8773697665168442, 'LightGBM': 0.8785497548620514, 'SVM': 0.6071751992224339, 'FF-NN': 0.9916666056311465, 'LSTM': 0.9983294002123965}Recall: {'kNN': 0.6716666666666666, 'LR': 0.6291666666666667, 'RF': 0.8458333333333333, 'XGBoost': 0.8775, 'LightGBM': 0.8783333333333333, 'SVM': 0.6133333333333333, 'FF-NN': 0.9916666666666667, 'LSTM': 0.9983291562238931}MCC: {'kNN': 0.6251751116055029, 'LR': 0.5777686659887048, 'RF': 0.824355622483951, 'XGBoost': 0.8602073504229495, 'LightGBM': 0.8612413692288877, 'SVM': 0.5750654482477121, 'FF-NN': 0.9904760090063482, 'LSTM': 0.9980910473534561}MAE: {'kNN': 1.2891666666666666, 'LR': 1.3433333333333333, 'RF': 0.5733333333333334, 'XGBoost': 0.4766666666666667, 'LightGBM': 0.4891666666666667, 'SVM': 1.4333333333333333, 'FF-NN': 0.009166666666666667, 'LSTM': 0.005847953216374269}MSE: {'kNN': 6.740833333333334, 'LR': 6.7716666666666665, 'RF': 2.8033333333333332, 'XGBoost': 2.3966666666666665, 'LightGBM': 2.5175, 'SVM': 7.501666666666667, 'FF-NN': 0.010833333333333334, 'LSTM': 0.030910609857978277}RMSE: {'kNN': 2.596311486192158, 'LR': 2.602242622559754, 'RF': 1.6743157806499147, 'XGBoost': 1.5481171359644161, 'LightGBM': 1.5866631652622432, 'SVM': 2.7389170609324167, 'FF-NN': 0.10408329997330663, 'LSTM': 0.17581413440897828}Latency (ms): {'kNN': 0.0260922908782959, 'LR': 0.0006377696990966797, 'RF': 0.0361027717590332, 'XGBoost': 0.01228475570678711, 'LightGBM': 0.022368669509887695, 'SVM': 0.269428014755249, 'FF-NN': 0.14378762245178223, 'LSTM': 0.16918110847473145}Time: {'kNN': 0.07530379295349121, 'LR': 7.546155214309692, 'RF': 0.5915939807891846, 'XGBoost': 8.515995740890503, 'LightGBM': 1.2024633884429932, 'SVM': 9.604779481887817, 'FF-NN': 28.53960680961609, 'LSTM': 19.455749034881592}
